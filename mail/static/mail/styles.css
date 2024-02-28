@@ -1,0 +1,64 @@
+textarea {
+    min-height: 400px;
+}
+
+.custom-card {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 4px 0 #0000003e;
+    transition: 0.3s;
+    border-radius: 2%;
+    position: relative;
+}
+
+.email-card {
+    padding: 50px;
+    margin: 10px;
+    margin-top: 50px;
+    height: 80vh;
+    width: 80vw;
+    box-shadow: 0 8px 16px 0 #0000003e;
+    transition: 0.3s;
+    border-radius: 2%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+.custom-card:hover {
+    box-shadow: 0 4px 8px 0 #0000003e;
+}
+
+.read {
+    background-color: rgb(241, 241, 241);
+}
+
+.unread {
+    background-color: white;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: rgb(0, 169, 211);
+    color: white;
+}
+
+.replay {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.archive {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
